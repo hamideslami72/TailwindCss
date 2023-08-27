@@ -41,7 +41,15 @@
         </div>
         <div class="bg-cyan-100 text-cyan-500 border border-cyan-500 px-8 py-4 rounded-md relative" x-show="show" x-data="{show:true}">
             <strong>
-                A simple danger alert—check it out!
+                A simple Info alert—check it out!
+            </strong>
+            <svg xmlns="http://www.w3.org/2000/svg" x-on:click="show= false" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute top-4 right-4 cursor-pointer w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </div>
+        <div class="bg-gray-100 text-gray-500 border border-gray-500 px-8 py-4 rounded-md relative" x-show="show" x-data="{show:true}">
+            <strong>
+                A simple default alert—check it out!
             </strong>
             <svg xmlns="http://www.w3.org/2000/svg" x-on:click="show= false" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="absolute top-4 right-4 cursor-pointer w-6 h-6">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12" />
